@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C87E6D3F22F2AF7700B9DDC0 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = C87E6D3E22F2AF7700B9DDC0 /* MainView.m */; };
+		C87E6D4322F2B0DB00B9DDC0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87E6D4222F2B0DB00B9DDC0 /* Cocoa.framework */; };
+		C87E6D4522F2B11300B9DDC0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87E6D4422F2B11300B9DDC0 /* QuartzCore.framework */; };
+		C87E6D4922F2B37100B9DDC0 /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C87E6D4822F2B37100B9DDC0 /* MainWindow.m */; };
 		C8F4B9A222F275C7008ADE1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F4B9A122F275C7008ADE1C /* AppDelegate.m */; };
-		C8F4B9A522F275C7008ADE1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F4B9A422F275C7008ADE1C /* ViewController.m */; };
 		C8F4B9A722F275C8008ADE1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8F4B9A622F275C8008ADE1C /* Assets.xcassets */; };
 		C8F4B9AD22F275C8008ADE1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F4B9AC22F275C8008ADE1C /* main.m */; };
 		C8F4B9B822F275C8008ADE1C /* LabTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F4B9B722F275C8008ADE1C /* LabTimerTests.m */; };
@@ -26,15 +29,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C87E6D3622F2ADE000B9DDC0 /* MainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		C87E6D3722F2AE0E00B9DDC0 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		C87E6D3E22F2AF7700B9DDC0 /* MainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		C87E6D4222F2B0DB00B9DDC0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C87E6D4422F2B11300B9DDC0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C87E6D4622F2B14800B9DDC0 /* ControlArrows.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlArrows.h; sourceTree = "<group>"; };
+		C87E6D4722F2B34900B9DDC0 /* MainWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainWindow.h; sourceTree = "<group>"; };
+		C87E6D4822F2B37100B9DDC0 /* MainWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainWindow.m; sourceTree = "<group>"; };
 		C8F4B99D22F275C7008ADE1C /* LabTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F4B9A022F275C7008ADE1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C8F4B9A122F275C7008ADE1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C8F4B9A322F275C7008ADE1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C8F4B9A422F275C7008ADE1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C8F4B9A622F275C8008ADE1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8F4B9AB22F275C8008ADE1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8F4B9AC22F275C8008ADE1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C8F4B9AE22F275C8008ADE1C /* LabTimer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LabTimer.entitlements; sourceTree = "<group>"; };
 		C8F4B9B322F275C8008ADE1C /* LabTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F4B9B722F275C8008ADE1C /* LabTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabTimerTests.m; sourceTree = "<group>"; };
 		C8F4B9B922F275C8008ADE1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C87E6D4522F2B11300B9DDC0 /* QuartzCore.framework in Frameworks */,
+				C87E6D4322F2B0DB00B9DDC0 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +69,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C87E6D4022F2B02500B9DDC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8F4B9AB22F275C8008ADE1C /* Info.plist */,
+				C8F4B9AC22F275C8008ADE1C /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C87E6D4122F2B0DB00B9DDC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C87E6D4422F2B11300B9DDC0 /* QuartzCore.framework */,
+				C87E6D4222F2B0DB00B9DDC0 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C8F4B99422F275C7008ADE1C = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +94,7 @@
 				C8F4B99F22F275C7008ADE1C /* LabTimer */,
 				C8F4B9B622F275C8008ADE1C /* LabTimerTests */,
 				C8F4B99E22F275C7008ADE1C /* Products */,
+				C87E6D4122F2B0DB00B9DDC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,12 +112,14 @@
 			children = (
 				C8F4B9A022F275C7008ADE1C /* AppDelegate.h */,
 				C8F4B9A122F275C7008ADE1C /* AppDelegate.m */,
-				C8F4B9A322F275C7008ADE1C /* ViewController.h */,
-				C8F4B9A422F275C7008ADE1C /* ViewController.m */,
+				C87E6D4622F2B14800B9DDC0 /* ControlArrows.h */,
+				C87E6D4722F2B34900B9DDC0 /* MainWindow.h */,
+				C87E6D4822F2B37100B9DDC0 /* MainWindow.m */,
+				C87E6D3722F2AE0E00B9DDC0 /* Constants.h */,
+				C87E6D3622F2ADE000B9DDC0 /* MainView.h */,
+				C87E6D3E22F2AF7700B9DDC0 /* MainView.m */,
 				C8F4B9A622F275C8008ADE1C /* Assets.xcassets */,
-				C8F4B9AB22F275C8008ADE1C /* Info.plist */,
-				C8F4B9AC22F275C8008ADE1C /* main.m */,
-				C8F4B9AE22F275C8008ADE1C /* LabTimer.entitlements */,
+				C87E6D4022F2B02500B9DDC0 /* Supporting Files */,
 			);
 			path = LabTimer;
 			sourceTree = "<group>";
@@ -200,9 +231,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8F4B9A522F275C7008ADE1C /* ViewController.m in Sources */,
+				C87E6D4922F2B37100B9DDC0 /* MainWindow.m in Sources */,
 				C8F4B9AD22F275C8008ADE1C /* main.m in Sources */,
 				C8F4B9A222F275C7008ADE1C /* AppDelegate.m in Sources */,
+				C87E6D3F22F2AF7700B9DDC0 /* MainView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
