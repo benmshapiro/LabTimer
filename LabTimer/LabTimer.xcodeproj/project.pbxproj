@@ -11,6 +11,7 @@
 		C87E6D4322F2B0DB00B9DDC0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87E6D4222F2B0DB00B9DDC0 /* Cocoa.framework */; };
 		C87E6D4522F2B11300B9DDC0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87E6D4422F2B11300B9DDC0 /* QuartzCore.framework */; };
 		C87E6D4922F2B37100B9DDC0 /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C87E6D4822F2B37100B9DDC0 /* MainWindow.m */; };
+		C89085DC22F4FE2B0088389C /* NSClickableTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C89085DB22F4FE2B0088389C /* NSClickableTextField.m */; };
 		C8F4B9A222F275C7008ADE1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F4B9A122F275C7008ADE1C /* AppDelegate.m */; };
 		C8F4B9A722F275C8008ADE1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8F4B9A622F275C8008ADE1C /* Assets.xcassets */; };
 		C8F4B9AD22F275C8008ADE1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F4B9AC22F275C8008ADE1C /* main.m */; };
@@ -37,6 +38,8 @@
 		C87E6D4622F2B14800B9DDC0 /* ControlArrows.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlArrows.h; sourceTree = "<group>"; };
 		C87E6D4722F2B34900B9DDC0 /* MainWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainWindow.h; sourceTree = "<group>"; };
 		C87E6D4822F2B37100B9DDC0 /* MainWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainWindow.m; sourceTree = "<group>"; };
+		C89085DA22F4FDFD0088389C /* NSClickableTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSClickableTextField.h; sourceTree = "<group>"; };
+		C89085DB22F4FE2B0088389C /* NSClickableTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSClickableTextField.m; sourceTree = "<group>"; };
 		C8F4B99D22F275C7008ADE1C /* LabTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F4B9A022F275C7008ADE1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C8F4B9A122F275C7008ADE1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -111,6 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				C8F4B9A022F275C7008ADE1C /* AppDelegate.h */,
+				C89085DA22F4FDFD0088389C /* NSClickableTextField.h */,
+				C89085DB22F4FE2B0088389C /* NSClickableTextField.m */,
 				C8F4B9A122F275C7008ADE1C /* AppDelegate.m */,
 				C87E6D4622F2B14800B9DDC0 /* ControlArrows.h */,
 				C87E6D4722F2B34900B9DDC0 /* MainWindow.h */,
@@ -234,6 +239,7 @@
 				C87E6D4922F2B37100B9DDC0 /* MainWindow.m in Sources */,
 				C8F4B9AD22F275C8008ADE1C /* main.m in Sources */,
 				C8F4B9A222F275C7008ADE1C /* AppDelegate.m in Sources */,
+				C89085DC22F4FE2B0088389C /* NSClickableTextField.m in Sources */,
 				C87E6D3F22F2AF7700B9DDC0 /* MainView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
