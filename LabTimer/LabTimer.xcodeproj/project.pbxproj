@@ -12,11 +12,14 @@
 		C87E6D4522F2B11300B9DDC0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87E6D4422F2B11300B9DDC0 /* QuartzCore.framework */; };
 		C87E6D4922F2B37100B9DDC0 /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C87E6D4822F2B37100B9DDC0 /* MainWindow.m */; };
 		C89085DC22F4FE2B0088389C /* NSClickableTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C89085DB22F4FE2B0088389C /* NSClickableTextField.m */; };
+		C89085DF22F5021D0088389C /* LabTimer-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C89085DE22F5021D0088389C /* LabTimer-Info.plist */; };
+		C89085E122F502240088389C /* LabTimerTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C89085E022F502240088389C /* LabTimerTests-Info.plist */; };
+		C89085E722F503870088389C /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C89085E622F503870088389C /* Logo.png */; };
+		C89085EC22F50DB20088389C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C89085EE22F50DB20088389C /* MainMenu.xib */; };
 		C8F4B9A222F275C7008ADE1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F4B9A122F275C7008ADE1C /* AppDelegate.m */; };
 		C8F4B9A722F275C8008ADE1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8F4B9A622F275C8008ADE1C /* Assets.xcassets */; };
 		C8F4B9AD22F275C8008ADE1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F4B9AC22F275C8008ADE1C /* main.m */; };
 		C8F4B9B822F275C8008ADE1C /* LabTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F4B9B722F275C8008ADE1C /* LabTimerTests.m */; };
-		C8F4B9C322F276BD008ADE1C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8F4B9C222F276BD008ADE1C /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,16 +44,18 @@
 		C89085DA22F4FDFD0088389C /* NSClickableTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSClickableTextField.h; sourceTree = "<group>"; };
 		C89085DB22F4FE2B0088389C /* NSClickableTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSClickableTextField.m; sourceTree = "<group>"; };
 		C89085DD22F5001C0088389C /* LabTimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LabTimer-Prefix.pch"; sourceTree = "<group>"; };
+		C89085DE22F5021D0088389C /* LabTimer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LabTimer-Info.plist"; sourceTree = "<group>"; };
+		C89085E022F502240088389C /* LabTimerTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LabTimerTests-Info.plist"; sourceTree = "<group>"; };
+		C89085E622F503870088389C /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logo.png; path = LabTimer/Logo.png; sourceTree = SOURCE_ROOT; };
+		C89085EB22F509CA0088389C /* LabTimer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LabTimer.entitlements; sourceTree = "<group>"; };
+		C89085ED22F50DB20088389C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		C8F4B99D22F275C7008ADE1C /* LabTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F4B9A022F275C7008ADE1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C8F4B9A122F275C7008ADE1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C8F4B9A622F275C8008ADE1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C8F4B9AB22F275C8008ADE1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8F4B9AC22F275C8008ADE1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C8F4B9B322F275C8008ADE1C /* LabTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F4B9B722F275C8008ADE1C /* LabTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabTimerTests.m; sourceTree = "<group>"; };
-		C8F4B9B922F275C8008ADE1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C8F4B9C222F276BD008ADE1C /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +81,9 @@
 		C87E6D4022F2B02500B9DDC0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C8F4B9AB22F275C8008ADE1C /* Info.plist */,
+				C89085EB22F509CA0088389C /* LabTimer.entitlements */,
+				C89085DE22F5021D0088389C /* LabTimer-Info.plist */,
+				C89085E622F503870088389C /* Logo.png */,
 				C8F4B9AC22F275C8008ADE1C /* main.m */,
 				C89085DD22F5001C0088389C /* LabTimer-Prefix.pch */,
 			);
@@ -124,7 +131,7 @@
 				C87E6D4822F2B37100B9DDC0 /* MainWindow.m */,
 				C87E6D4722F2B34900B9DDC0 /* MainWindow.h */,
 				C87E6D3E22F2AF7700B9DDC0 /* MainView.m */,
-				C8F4B9C222F276BD008ADE1C /* MainMenu.xib */,
+				C89085EE22F50DB20088389C /* MainMenu.xib */,
 				C8F4B9A622F275C8008ADE1C /* Assets.xcassets */,
 				C87E6D4022F2B02500B9DDC0 /* Supporting Files */,
 			);
@@ -134,8 +141,8 @@
 		C8F4B9B622F275C8008ADE1C /* LabTimerTests */ = {
 			isa = PBXGroup;
 			children = (
+				C89085E022F502240088389C /* LabTimerTests-Info.plist */,
 				C8F4B9B722F275C8008ADE1C /* LabTimerTests.m */,
-				C8F4B9B922F275C8008ADE1C /* Info.plist */,
 			);
 			path = LabTimerTests;
 			sourceTree = "<group>";
@@ -219,8 +226,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C89085E722F503870088389C /* Logo.png in Resources */,
 				C8F4B9A722F275C8008ADE1C /* Assets.xcassets in Resources */,
-				C8F4B9C322F276BD008ADE1C /* MainMenu.xib in Resources */,
+				C89085EC22F50DB20088389C /* MainMenu.xib in Resources */,
+				C89085DF22F5021D0088389C /* LabTimer-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C89085E122F502240088389C /* LabTimerTests-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +273,17 @@
 			targetProxy = C8F4B9B422F275C8008ADE1C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C89085EE22F50DB20088389C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C89085ED22F50DB20088389C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C8F4B9BA22F275C8008ADE1C /* Debug */ = {
@@ -379,13 +400,12 @@
 		C8F4B9BD22F275C8008ADE1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = LabTimer/LabTimer.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "LabTimer/Supporting Files/LabTimer.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = LabTimer/Info.plist;
+				DEVELOPMENT_TEAM = 45X3F4JW8N;
+				INFOPLIST_FILE = "$(SRCROOT)/LabTimer/Supporting Files/LabTimer-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -399,13 +419,12 @@
 		C8F4B9BE22F275C8008ADE1C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = LabTimer/LabTimer.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "LabTimer/Supporting Files/LabTimer.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = LabTimer/Info.plist;
+				DEVELOPMENT_TEAM = 45X3F4JW8N;
+				INFOPLIST_FILE = "$(SRCROOT)/LabTimer/Supporting Files/LabTimer-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
