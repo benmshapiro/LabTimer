@@ -2,7 +2,7 @@
 //  LabTimerTests.m
 //  LabTimerTests
 //
-//  Created by bms on 7/31/19.
+//  Created by Ben Shapiro on 7/31/19.
 //
 
 #import <XCTest/XCTest.h>

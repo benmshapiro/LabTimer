@@ -39,12 +39,12 @@ NSTimer *timer;
     
     [self showWindow];
     
-    
-    
+
+
     self.secControlArrow.alphaValue = 0;
     self.minControlArrow.alphaValue = 0;
     
-    
+
     // setup window events
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(doubleClick:) name:kNotification_doubleClick object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeSec:) name:kNotification_changeSeconds object:nil];
@@ -79,7 +79,7 @@ NSTimer *timer;
     CGPathCloseSubpath(shakePath);
     shakeAnimation.path = shakePath;
     shakeAnimation.duration = durationOfShake;
-    
+
     // Invoke the animation
     self.window.animations = @{ @"frameOrigin" : shakeAnimation };
     [self.window.animator setFrameOrigin:self.window.frame.origin];
@@ -157,16 +157,16 @@ NSTimer *timer;
 {
     NSDictionary *userInfo = [sender userInfo];
     CGFloat deltaY = [userInfo[@"deltaY"] floatValue];
-    
+
     if ( deltaY > 1.0 || deltaY < 1.0 ) {
         if ( totalSeconds + deltaY > 0 ) {
             totalSeconds += deltaY;
             [self updateTimer];
         } else
-            if ( totalSeconds + deltaY < 0 ) {
-                totalSeconds = 0;
-                [self updateTimer];
-            }
+        if ( totalSeconds + deltaY < 0 ) {
+            totalSeconds = 0;
+            [self updateTimer];
+        }
     }
 }
 

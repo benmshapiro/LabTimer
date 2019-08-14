@@ -2,12 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/bms/Sync/GitHub/LabTimer/LabTimer/LabTimer/Constants.h">
-   </FileRef>
-   <FileRef
-      location = "group:/Users/bms/Sync/GitHub/LabTimer/LabTimer/LabTimer/MainView.h">
-   </FileRef>
-   <FileRef
-      location = "self:">
+      location = "self:/Users/bms/Sync/xcode/DownTimer/LabTimer.xcodeproj">
    </FileRef>
 </Workspace>

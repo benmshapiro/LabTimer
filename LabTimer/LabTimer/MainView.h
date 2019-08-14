@@ -2,7 +2,7 @@
 //  MainView.h
 //  LabTimer
 //
-// Created by Ben Shapiro on 7/31/19.
+//  Created by Ben Shapiro on 7/31/19.
 //  Copyright (c) 2019. MIT Licence.
 //
 
@@ -13,5 +13,7 @@
 @property (weak) IBOutlet NSTextField *min;
 @property (weak) IBOutlet NSTextFieldCell *textSec;
 @property (weak) IBOutlet NSTextFieldCell *textMin;
+
+
 
 @end

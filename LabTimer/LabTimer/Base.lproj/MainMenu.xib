@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -101,11 +100,11 @@
                 <rect key="frame" x="0.0" y="0.0" width="338" height="135"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="MdD-Rg-3HY" customClass="ControlArrows">
-                        <rect key="frame" x="179" y="8" width="92" height="119"/>
+                    <customView ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MdD-Rg-3HY" customClass="ControlArrows">
+                        <rect key="frame" x="179" y="7" width="96" height="119"/>
                     </customView>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="626-ya-e0A" customClass="NSClickableTextField">
-                        <rect key="frame" x="176" y="22" width="98" height="91"/>
+                        <rect key="frame" x="176" y="23" width="98" height="91"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="00" id="QvT-be-NNX">
                             <font key="font" metaFont="system" size="77"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -116,11 +115,11 @@
                             <userDefinedRuntimeAttribute type="string" keyPath="hoverNotificationName" value="_hoverSeconds"/>
                         </userDefinedRuntimeAttributes>
                     </textField>
-                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="BgP-S8-5oz" customClass="ControlArrows">
-                        <rect key="frame" x="67" y="8" width="92" height="119"/>
+                    <customView ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BgP-S8-5oz" customClass="ControlArrows">
+                        <rect key="frame" x="63" y="8" width="96" height="119"/>
                     </customView>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="3RT-0r-a9a" customClass="NSClickableTextField">
-                        <rect key="frame" x="64" y="22" width="98" height="91"/>
+                        <rect key="frame" x="64" y="23" width="98" height="91"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="00" id="fnh-Ud-th9">
                             <font key="font" metaFont="system" size="77"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -153,14 +152,15 @@
                     <constraint firstItem="626-ya-e0A" firstAttribute="centerX" secondItem="MdD-Rg-3HY" secondAttribute="centerX" id="hAC-Qc-I6P"/>
                     <constraint firstItem="626-ya-e0A" firstAttribute="leading" secondItem="EEw-hc-E1T" secondAttribute="trailing" id="ifb-i7-IGS"/>
                     <constraint firstItem="3RT-0r-a9a" firstAttribute="centerY" secondItem="BgP-S8-5oz" secondAttribute="centerY" id="j3e-8A-frc"/>
-                    <constraint firstItem="BgP-S8-5oz" firstAttribute="top" secondItem="c90-J4-48y" secondAttribute="top" constant="8" id="ka6-xO-HvA"/>
-                    <constraint firstItem="EEw-hc-E1T" firstAttribute="leading" secondItem="BgP-S8-5oz" secondAttribute="trailing" constant="1" id="nUr-0F-dwy"/>
                     <constraint firstItem="EEw-hc-E1T" firstAttribute="centerX" secondItem="c90-J4-48y" secondAttribute="centerX" id="r26-3w-lXM"/>
                     <constraint firstAttribute="centerY" secondItem="3RT-0r-a9a" secondAttribute="centerY" id="sNO-7m-CB1"/>
                     <constraint firstItem="EEw-hc-E1T" firstAttribute="leading" secondItem="3RT-0r-a9a" secondAttribute="trailing" id="zDS-Ra-lCH"/>
                 </constraints>
             </view>
-            <point key="canvasLocation" x="-203" y="153.5"/>
+            <connections>
+                <outlet property="initialFirstResponder" destination="c90-J4-48y" id="vwg-ef-tfF"/>
+            </connections>
+            <point key="canvasLocation" x="-203" y="154"/>
         </window>
     </objects>
 </document>

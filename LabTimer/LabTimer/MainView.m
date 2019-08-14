@@ -50,8 +50,8 @@ NSPoint initialMousePos;
     NSRect windowFrame = [self frame];
     newOrigin.x = currentLocation.x - initialMousePos.x;
     newOrigin.y = currentLocation.y - initialMousePos.y;
-    
-    
+
+   
     if ((newOrigin.y + windowFrame.size.height) > screenFrame.origin.y+screenFrame.size.height - 22) {
         newOrigin.y=screenFrame.origin.y + (screenFrame.size.height-windowFrame.size.height) - 22;
     }
@@ -62,8 +62,8 @@ NSPoint initialMousePos;
 
 - (void)drawRect:(NSRect)dirtyRect
 {
-    [super drawRect:dirtyRect];
-    
+	[super drawRect:dirtyRect];
+	
     // Drawing code here.
 }
 

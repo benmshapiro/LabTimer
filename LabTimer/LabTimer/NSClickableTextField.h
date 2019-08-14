@@ -2,7 +2,7 @@
 //  NSClickableTextField.h
 //  LabTimer
 //
-// Created by Ben Shapiro on 8/2/19.
+//  Created by Ben Shapiro on 8/2/19.
 //  Copyright (c) 2019. MIT Licence.
 //
 
